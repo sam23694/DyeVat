@@ -1,0 +1,5 @@
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\DyeVat\Source\DyeVat\DyeVat\bin\Debug\DyeVat.dll
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\DyeVat\Source\DyeVat\DyeVat\bin\Debug\DyeVat.pdb
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\DyeVat\Source\DyeVat\DyeVat\obj\Debug\DyeVat.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\DyeVat\Source\DyeVat\DyeVat\obj\Debug\DyeVat.dll
+C:\Program Files (x86)\Steam\SteamApps\common\RimWorld\Mods\DyeVat\Source\DyeVat\DyeVat\obj\Debug\DyeVat.pdb

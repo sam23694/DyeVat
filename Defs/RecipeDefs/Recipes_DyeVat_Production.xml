@@ -1,0 +1,202 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<RecipeDefs>
+
+	<RecipeDef Name="DV_RecipeRoot" Abstract="True">
+		<workAmount>350</workAmount>
+		<workSpeedStat>BrewingSpeed</workSpeedStat>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+	</RecipeDef>
+
+	<RecipeDef Name="DV_RecipeBase" Abstract="True">
+		<description>Use various powders and liquids to dye cloth.</description>
+		<jobString>Dyeing cloth.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+						<li>DV_UndyedCloth</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Cloth</li>
+				<li>DV_UndyedCloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeRoot">
+		<defName>DV_BleachCloth</defName>
+		<label>bleach dyed cloth</label>
+		<description>Bleach dyed cloth to standard cloth.</description>
+		<jobString>Bleaching cloth.</jobString>
+		<ingredients>
+			<li>
+				<filter>
+					<categories>
+						<li>DV_DyedCloth</li>
+					</categories>
+				</filter>
+				<count>10</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<categories>
+				<li>DV_DyedCloth</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<DV_UndyedCloth>10</DV_UndyedCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Red</defName>
+		<label>dye cloth red</label>
+		<products>
+			<DV_RedCloth>10</DV_RedCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Pink</defName>
+		<label>dye cloth pink</label>
+		<products>
+			<DV_PinkCloth>10</DV_PinkCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Magenta</defName>
+		<label>dye cloth magenta</label>
+		<products>
+			<DV_MagentaCloth>10</DV_MagentaCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Purple</defName>
+		<label>dye cloth purple</label>
+		<products>
+			<DV_PurpleCloth>10</DV_PurpleCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Violet</defName>
+		<label>dye cloth violet</label>
+		<products>
+			<DV_VioletCloth>10</DV_VioletCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Blue</defName>
+		<label>dye cloth blue</label>
+		<products>
+			<DV_BlueCloth>10</DV_BlueCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_LightBlue</defName>
+		<label>dye cloth light blue</label>
+		<products>
+			<DV_LightBlueCloth>10</DV_LightBlueCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Cyan</defName>
+		<label>dye cloth cyan</label>
+		<products>
+			<DV_CyanCloth>10</DV_CyanCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Turquoise</defName>
+		<label>dye cloth turquoise</label>
+		<products>
+			<DV_TurquoiseCloth>10</DV_TurquoiseCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Lime</defName>
+		<label>dye cloth lime</label>
+		<products>
+			<DV_LimeCloth>10</DV_LimeCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Green</defName>
+		<label>dye cloth green</label>
+		<products>
+			<DV_GreenCloth>10</DV_GreenCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Yellow</defName>
+		<label>dye cloth yellow</label>
+		<products>
+			<DV_YellowCloth>10</DV_YellowCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Orange</defName>
+		<label>dye cloth orange</label>
+		<products>
+			<DV_OrangeCloth>10</DV_OrangeCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Maroon</defName>
+		<label>dye cloth maroon</label>
+		<products>
+			<DV_MaroonCloth>10</DV_MaroonCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_NavyBlue</defName>
+		<label>dye cloth navy blue</label>
+		<products>
+			<DV_NavyBlueCloth>10</DV_NavyBlueCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Black</defName>
+		<label>dye cloth black</label>
+		<products>
+			<DV_BlackCloth>10</DV_BlackCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_Grey</defName>
+		<label>dye cloth grey</label>
+		<products>
+			<DV_GreyCloth>10</DV_GreyCloth>
+		</products>
+	</RecipeDef>
+	
+	<RecipeDef ParentName="DV_RecipeBase">
+		<defName>DV_DyeClothTo_White</defName>
+		<label>dye cloth white</label>
+		<products>
+			<DV_WhiteCloth>10</DV_WhiteCloth>
+		</products>
+	</RecipeDef>
+
+</RecipeDefs>

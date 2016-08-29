@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+
+      <ThingCategoryDef>
+        <defName>DV_DyedCloth</defName>
+        <label>dyed cloth</label>
+        <parent>Textiles</parent>
+        <iconPath>Ui/Icons/ThingCategories/Textiles</iconPath>
+      </ThingCategoryDef>
+
+</ThingCategoryDefs>

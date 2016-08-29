@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<WorkGivers>
+
+	<!-- ============= Fabricating ============= -->
+	<WorkGiverDef Name="WorkGiver_DV" Abstract="True">
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>90</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+	<WorkGiverDef ParentName="WorkGiver_DV">
+		<defName>DoBillsDyeVat</defName>
+		<label>use dye vat</label>
+		<fixedBillGiverDefs>
+			<li>DyeVat</li>
+		</fixedBillGiverDefs>
+		<verb>dye</verb>
+		<gerund>dyeing</gerund>
+	</WorkGiverDef>
+
+</WorkGivers>

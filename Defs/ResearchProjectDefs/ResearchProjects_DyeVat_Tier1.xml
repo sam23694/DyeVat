@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <!--=============================== Tier 1: pre-electricity ===================================-->
+
+  <ResearchProjectDef>
+    <defName>ClothingDye</defName>
+    <label>clothing dye</label>
+    <description>Apply various powders and liquids derived from plants to cloth for coloration.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Medieval</techLevel>
+	<prerequisites>
+      <li>ComplexClothing</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>

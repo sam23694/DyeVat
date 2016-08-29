@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!--=============== Pure stuffs: Basics ====================-->
+
+	<ThingDef Name="DyeVatCloth" ParentName="ResourceBase" Abstract="True">
+		<description>Cloth woven from organic fibers.</description>
+		<graphicData>
+			<texPath>Things/Item/Resource/Cloth</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>100</MaxHitPoints>
+			<MarketValue>1.5</MarketValue>
+			<Flammability>1.0</Flammability>
+			<DeteriorationRate>4</DeteriorationRate>
+		</statBases>
+		<thingCategories>
+			<li>DV_DyedCloth</li>
+		</thingCategories>
+	</ThingDef>
+
+	<!--			Colour wheel			-->
+	<ThingDef ParentName="DyeVatCloth" Name="DyedCloth" Abstract="True">
+		<stuffProps>
+			<categories>
+				<li>Fabric</li>
+			</categories>
+			<allowColorGenerators>false</allowColorGenerators>
+		</stuffProps>
+	</ThingDef>
+
+	<!--This item exists briefly before converting into <spawnCount> Cloth regardless of current stack count, needs a fix-->
+	<ThingDef ParentName="DyeVatCloth">
+		<defName>DV_UndyedCloth</defName>
+		<label>bleached cloth</label>
+		<graphicData>
+			<color>(162,157,152)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(162,157,152)</color>
+		</stuffProps>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="GT_Utilities.CompProperties_GTReplaceThing">
+				<thingToSpawn>Cloth</thingToSpawn>
+				<spawnCount>10</spawnCount>
+				<replaceInstantly>true</replaceInstantly>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_RedCloth</defName>
+		<label>red cloth</label>
+		<graphicData>
+			<color>(225,60,60)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(225,60,60)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_PinkCloth</defName>
+		<label>pink cloth</label>
+		<graphicData>
+			<color>(225,90,125)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(225,90,125)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_MagentaCloth</defName>
+		<label>magenta cloth</label>
+		<graphicData>
+			<color>(225,90,225)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(225,90,225)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_PurpleCloth</defName>
+		<label>purple cloth</label>
+		<graphicData>
+			<color>(172,90,225)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(172,90,225)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_VioletCloth</defName>
+		<label>violet cloth</label>
+		<graphicData>
+			<color>(125,90,225)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(125,90,225)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_BlueCloth</defName>
+		<label>blue cloth</label>
+		<graphicData>
+			<color>(60,60,225)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(60,60,225)</color>
+		</stuffProps>
+	</ThingDef>	
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_LightBlueCloth</defName>
+		<label>light blue cloth</label>
+		<graphicData>
+			<color>(90,125,225)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(90,125,225)</color>
+		</stuffProps>
+	</ThingDef>	
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_CyanCloth</defName>
+		<label>cyan cloth</label>
+		<graphicData>
+			<color>(90,225,225)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(90,225,225)</color>
+		</stuffProps>
+	</ThingDef>	
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_TurquoiseCloth</defName>
+		<label>turquoise cloth</label>
+		<graphicData>
+			<color>(90,225,172)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(90,225,172)</color>
+		</stuffProps>
+	</ThingDef>	
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_LimeCloth</defName>
+		<label>lime cloth</label>
+		<graphicData>
+			<color>(60,225,60)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(60,225,60)</color>
+		</stuffProps>
+	</ThingDef>	
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_GreenCloth</defName>
+		<label>green cloth</label>
+		<graphicData>
+			<color>(60,125,60)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(60,125,60)</color>
+		</stuffProps>
+	</ThingDef>	
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_YellowCloth</defName>
+		<label>yellow cloth</label>
+		<graphicData>
+			<color>(225,225,90)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(225,225,90)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_OrangeCloth</defName>
+		<label>orange cloth</label>
+		<graphicData>
+			<color>(225,125,50)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(225,125,50)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<!--			Special			-->
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_MaroonCloth</defName>
+		<label>maroon cloth</label>
+		<graphicData>
+			<color>(125,30,30)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(125,30,30)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_NavyBlueCloth</defName>
+		<label>navy blue cloth</label>
+		<graphicData>
+			<color>(50,50,125)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(50,50,125)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<!--			Hues			-->
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_BlackCloth</defName>
+		<label>black cloth</label>
+		<graphicData>
+			<color>(50,50,50)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(50,50,50)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_GreyCloth</defName>
+		<label>grey cloth</label>
+		<graphicData>
+			<color>(128,128,128)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(128,128,128)</color>
+		</stuffProps>
+	</ThingDef>
+
+	<ThingDef ParentName="DyedCloth">
+		<defName>DV_WhiteCloth</defName>
+		<label>white cloth</label>
+		<graphicData>
+			<color>(245,245,245)</color>
+		</graphicData>
+		<stuffProps>
+			<color>(245,245,245)</color>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>
