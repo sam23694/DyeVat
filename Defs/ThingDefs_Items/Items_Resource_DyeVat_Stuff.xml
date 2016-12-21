@@ -3,7 +3,25 @@
 
 	<!--=============== Pure stuffs: Basics ====================-->
 
-	<ThingDef Name="DyeVatCloth" ParentName="ResourceBase" Abstract="True">
+	<ThingDef Name="ResourceBase_GT" Abstract="True">
+		<thingClass>ThingWithComps</thingClass>
+		<label>unspecified resource</label>
+		<category>Item</category>
+		<resourceReadoutPriority>Middle</resourceReadoutPriority>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<stackLimit>75</stackLimit>
+		<comps>
+			<li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<alwaysHaulable>true</alwaysHaulable>
+		<drawGUIOverlay>true</drawGUIOverlay>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+
+	<ThingDef Name="DyeVatCloth" ParentName="ResourceBase_GT" Abstract="True">
 		<description>Cloth woven from organic fibers.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Cloth</texPath>

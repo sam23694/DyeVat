@@ -1,87 +1,104 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ThingDefs>
 
-  <ThingDef ParentName="BenchBase">
-    <DefName>DyeVat</DefName>
-    <label>dye vat</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A workstation with a big vat used to mix dye and coloring into textiles.</Description>
-    <graphicData>
-      <texPath>Things/Building/Production/DyeVat</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(2,2)</drawSize>
-      <damageData>
-        <cornerTL>Damage/Corner</cornerTL>
-        <cornerTR>Damage/Corner</cornerTR>
-        <cornerBL>Damage/Corner</cornerBL>
-        <cornerBR>Damage/Corner</cornerBR>
-      </damageData>
-    </graphicData>
-    <costStuffCount>75</costStuffCount>
-    <CostList>
-      <Steel>50</Steel>
-    </CostList>
-    <stuffCategories>
-      <li>Metallic</li>
-      <li>Woody</li>
-    </stuffCategories>
-    <AltitudeLayer>Building</AltitudeLayer>
-    <fillPercent>0.5</fillPercent>
-    <useHitPoints>True</useHitPoints>
-    <statBases>
-      <WorkToMake>2500</WorkToMake>
-      <MaxHitPoints>180</MaxHitPoints>
-      <Flammability>1.0</Flammability>
-    </statBases>
-    <Size>(2,2)</Size>
-    <DesignationCategory>Production</DesignationCategory>
-    <Passability>PassThroughOnly</Passability>
-    <pathCost>70</pathCost>
-    <hasInteractionCell>True</hasInteractionCell>
-    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
-    <surfaceType>Item</surfaceType>
-	<recipes>
-		<li>DV_DyeClothTo_Red</li>
-		<li>DV_DyeClothTo_Pink</li>
-		<li>DV_DyeClothTo_Magenta</li>
-		<li>DV_DyeClothTo_Purple</li>
-		<li>DV_DyeClothTo_Violet</li>
-		<li>DV_DyeClothTo_Blue</li>
-		<li>DV_DyeClothTo_LightBlue</li>
-		<li>DV_DyeClothTo_Cyan</li>
-		<li>DV_DyeClothTo_Turquoise</li>
-		<li>DV_DyeClothTo_Lime</li>
-		<li>DV_DyeClothTo_Green</li>
-		<li>DV_DyeClothTo_Yellow</li>
-		<li>DV_DyeClothTo_Orange</li>
-		<li>DV_DyeClothTo_Maroon</li>
-		<li>DV_DyeClothTo_NavyBlue</li>
-		<li>DV_DyeClothTo_Black</li>
-		<li>DV_DyeClothTo_Grey</li>
-		<li>DV_DyeClothTo_White</li>
-		<li>DV_BleachCloth</li>
-	</recipes>
-    <inspectorTabs>
-      <li>ITab_Bills</li>
-    </inspectorTabs>
-    <building>
-      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-      <unpoweredWorkTableWorkSpeedFactor>0.4</unpoweredWorkTableWorkSpeedFactor>
-    </building>
-    <comps>
-      <li Class="CompProperties_AffectedByFacilities">
-        <linkableFacilities>
-          <li>ToolCabinet</li>
-        </linkableFacilities>
-      </li>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <placeWorkers>
-      <li>PlaceWorker_ShowFacilitiesConnections</li>
-    </placeWorkers>
-    <researchPrerequisites>
-	  <li>ClothingDye</li>
-    </researchPrerequisites>
-  </ThingDef>
+	<ThingDef Name="BuildingBase_GT" Abstract="True">
+		<category>Building</category>
+		<thingClass>Building</thingClass>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<selectable>true</selectable>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<repairEffect>Repair</repairEffect>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<filthLeaving>BuildingRubble</filthLeaving>
+	</ThingDef>
+
+	<ThingDef Name="BenchBase_GT" ParentName="BuildingBase_GT" Abstract="True">
+		<castEdgeShadows>true</castEdgeShadows>
+		<staticSunShadowHeight>0.20</staticSunShadowHeight>
+	</ThingDef>
+
+	<ThingDef ParentName="BenchBase_GT">
+		<DefName>DyeVat</DefName>
+		<label>dye vat</label>
+		<ThingClass>Building_WorkTable</ThingClass>
+		<Description>A workstation with a big vat used to mix dye and coloring into textiles.</Description>
+		<graphicData>
+			<texPath>Things/Building/Production/DyeVat</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costStuffCount>75</costStuffCount>
+		<CostList>
+			<Steel>50</Steel>
+		</CostList>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+		</stuffCategories>
+		<AltitudeLayer>Building</AltitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToMake>2500</WorkToMake>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+		</statBases>
+		<Size>(2,2)</Size>
+		<DesignationCategory>Production</DesignationCategory>
+		<Passability>PassThroughOnly</Passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<recipes>
+			<li>DV_DyeClothTo_Red</li>
+			<li>DV_DyeClothTo_Pink</li>
+			<li>DV_DyeClothTo_Magenta</li>
+			<li>DV_DyeClothTo_Purple</li>
+			<li>DV_DyeClothTo_Violet</li>
+			<li>DV_DyeClothTo_Blue</li>
+			<li>DV_DyeClothTo_LightBlue</li>
+			<li>DV_DyeClothTo_Cyan</li>
+			<li>DV_DyeClothTo_Turquoise</li>
+			<li>DV_DyeClothTo_Lime</li>
+			<li>DV_DyeClothTo_Green</li>
+			<li>DV_DyeClothTo_Yellow</li>
+			<li>DV_DyeClothTo_Orange</li>
+			<li>DV_DyeClothTo_Maroon</li>
+			<li>DV_DyeClothTo_NavyBlue</li>
+			<li>DV_DyeClothTo_Black</li>
+			<li>DV_DyeClothTo_Grey</li>
+			<li>DV_DyeClothTo_White</li>
+			<li>DV_BleachCloth</li>
+		</recipes>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<unpoweredWorkTableWorkSpeedFactor>0.4</unpoweredWorkTableWorkSpeedFactor>
+		</building>
+		<comps>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li Class="CompProperties_Breakdownable"/>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+		</placeWorkers>
+		<researchPrerequisites>
+			<li>ClothingDye</li>
+		</researchPrerequisites>
+	</ThingDef>
 
 </ThingDefs>
