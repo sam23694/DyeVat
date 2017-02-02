@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DyeVat.label>染缸</DyeVat.label>
+  <DyeVat.description>一个配备大染缸的工作站，用于将染料着色到纺织品上。</DyeVat.description>
+  <DyeVat_Blueprint.label>染缸（蓝图）</DyeVat_Blueprint.label>
+  <DyeVat_Frame.label>染缸（建造中）</DyeVat_Frame.label>
+
+
+</LanguageData>

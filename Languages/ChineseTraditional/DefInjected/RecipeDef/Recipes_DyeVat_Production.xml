@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DV_BleachCloth.label>漂洗</DV_BleachCloth.label>
+  <DV_BleachCloth.description>漂洗染色布，讓上面的染料脫落使布料變回原色。</DV_BleachCloth.description>
+  <DV_BleachCloth.jobString>正在漂洗。</DV_BleachCloth.jobString>
+
+  <DV_DyeClothTo_Red.label>染红色布</DV_DyeClothTo_Red.label>
+  <DV_DyeClothTo_Red.description>使用各種粉末和液體染布。</DV_DyeClothTo_Red.description>
+  <DV_DyeClothTo_Red.jobString>正在染色。</DV_DyeClothTo_Red.jobString>
+
+  <DV_DyeClothTo_Pink.label>染粉紅色布</DV_DyeClothTo_Pink.label>
+  <DV_DyeClothTo_Pink.description>使用各種粉末和液體染布。</DV_DyeClothTo_Pink.description>
+  <DV_DyeClothTo_Pink.jobString>正在染色。</DV_DyeClothTo_Pink.jobString>
+
+  <DV_DyeClothTo_Magenta.label>染洋红色布</DV_DyeClothTo_Magenta.label>
+  <DV_DyeClothTo_Magenta.description>使用各種粉末和液體染布。</DV_DyeClothTo_Magenta.description>
+  <DV_DyeClothTo_Magenta.jobString>正在染色。</DV_DyeClothTo_Magenta.jobString>
+
+  <DV_DyeClothTo_Purple.label>染紫色布</DV_DyeClothTo_Purple.label>
+  <DV_DyeClothTo_Purple.description>使用各種粉末和液體染布。</DV_DyeClothTo_Purple.description>
+  <DV_DyeClothTo_Purple.jobString>正在染色。</DV_DyeClothTo_Purple.jobString>
+
+  <DV_DyeClothTo_Violet.label>染紫羅蘭色布</DV_DyeClothTo_Violet.label>
+  <DV_DyeClothTo_Violet.description>使用各種粉末和液體染布。</DV_DyeClothTo_Violet.description>
+  <DV_DyeClothTo_Violet.jobString>正在染色。</DV_DyeClothTo_Violet.jobString>
+
+  <DV_DyeClothTo_Blue.label>染藍色布</DV_DyeClothTo_Blue.label>
+  <DV_DyeClothTo_Blue.description>使用各種粉末和液體染布。</DV_DyeClothTo_Blue.description>
+  <DV_DyeClothTo_Blue.jobString>正在染色。</DV_DyeClothTo_Blue.jobString>
+
+  <DV_DyeClothTo_LightBlue.label>染淺藍色布</DV_DyeClothTo_LightBlue.label>
+  <DV_DyeClothTo_LightBlue.description>使用各種粉末和液體染布。</DV_DyeClothTo_LightBlue.description>
+  <DV_DyeClothTo_LightBlue.jobString>正在染色。</DV_DyeClothTo_LightBlue.jobString>
+
+  <DV_DyeClothTo_Cyan.label>染青色布</DV_DyeClothTo_Cyan.label>
+  <DV_DyeClothTo_Cyan.description>使用各種粉末和液體染布。</DV_DyeClothTo_Cyan.description>
+  <DV_DyeClothTo_Cyan.jobString>正在染色。</DV_DyeClothTo_Cyan.jobString>
+
+  <DV_DyeClothTo_Turquoise.label>染綠松色布</DV_DyeClothTo_Turquoise.label>
+  <DV_DyeClothTo_Turquoise.description>使用各種粉末和液體染布。</DV_DyeClothTo_Turquoise.description>
+  <DV_DyeClothTo_Turquoise.jobString>正在染色。</DV_DyeClothTo_Turquoise.jobString>
+
+  <DV_DyeClothTo_Lime.label>染青檸色布</DV_DyeClothTo_Lime.label>
+  <DV_DyeClothTo_Lime.description>使用各種粉末和液體染布。</DV_DyeClothTo_Lime.description>
+  <DV_DyeClothTo_Lime.jobString>正在染色。</DV_DyeClothTo_Lime.jobString>
+
+  <DV_DyeClothTo_Green.label>染綠色布</DV_DyeClothTo_Green.label>
+  <DV_DyeClothTo_Green.description>使用各種粉末和液體染布。</DV_DyeClothTo_Green.description>
+  <DV_DyeClothTo_Green.jobString>正在染色。</DV_DyeClothTo_Green.jobString>
+
+  <DV_DyeClothTo_Yellow.label>染黃色布</DV_DyeClothTo_Yellow.label>
+  <DV_DyeClothTo_Yellow.description>使用各種粉末和液體染布。</DV_DyeClothTo_Yellow.description>
+  <DV_DyeClothTo_Yellow.jobString>正在染色。</DV_DyeClothTo_Yellow.jobString>
+
+  <DV_DyeClothTo_Orange.label>染橙色布</DV_DyeClothTo_Orange.label>
+  <DV_DyeClothTo_Orange.description>使用各種粉末和液體染布。</DV_DyeClothTo_Orange.description>
+  <DV_DyeClothTo_Orange.jobString>正在染色。</DV_DyeClothTo_Orange.jobString>
+
+  <DV_DyeClothTo_Maroon.label>染褐紅色布</DV_DyeClothTo_Maroon.label>
+  <DV_DyeClothTo_Maroon.description>使用各種粉末和液體染布。</DV_DyeClothTo_Maroon.description>
+  <DV_DyeClothTo_Maroon.jobString>正在染色。</DV_DyeClothTo_Maroon.jobString>
+
+  <DV_DyeClothTo_NavyBlue.label>染海軍藍色布</DV_DyeClothTo_NavyBlue.label>
+  <DV_DyeClothTo_NavyBlue.description>使用各種粉末和液體染布。</DV_DyeClothTo_NavyBlue.description>
+  <DV_DyeClothTo_NavyBlue.jobString>正在染色。</DV_DyeClothTo_NavyBlue.jobString>
+
+  <DV_DyeClothTo_Black.label>染黑色布</DV_DyeClothTo_Black.label>
+  <DV_DyeClothTo_Black.description>使用各種粉末和液體染布。</DV_DyeClothTo_Black.description>
+  <DV_DyeClothTo_Black.jobString>正在染色。</DV_DyeClothTo_Black.jobString>
+
+  <DV_DyeClothTo_Grey.label>染灰色布</DV_DyeClothTo_Grey.label>
+  <DV_DyeClothTo_Grey.description>使用各種粉末和液體染布。</DV_DyeClothTo_Grey.description>
+  <DV_DyeClothTo_Grey.jobString>正在染色。</DV_DyeClothTo_Grey.jobString>
+
+  <DV_DyeClothTo_White.label>染白色布</DV_DyeClothTo_White.label>
+  <DV_DyeClothTo_White.description>使用各種粉末和液體染布。</DV_DyeClothTo_White.description>
+  <DV_DyeClothTo_White.jobString>正在染色。</DV_DyeClothTo_White.jobString>
+
+
+</LanguageData>
