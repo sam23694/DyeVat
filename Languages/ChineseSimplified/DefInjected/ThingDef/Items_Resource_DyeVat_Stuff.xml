@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- This item exists briefly before converting into <spawnCount> Cloth regardless of current stack count, needs a fix -->
+
+  <DV_UndyedCloth.label>漂白布</DV_UndyedCloth.label>
+  <DV_UndyedCloth.description>用有机纤维织成的布。</DV_UndyedCloth.description>
+
+  <DV_RedCloth.label>红色布</DV_RedCloth.label>
+  <DV_RedCloth.stuffProps.stuffAdjective>红色布</DV_RedCloth.stuffProps.stuffAdjective>
+  <DV_RedCloth.description>用有机纤维织成的布。</DV_RedCloth.description>
+
+  <DV_PinkCloth.label>粉红色布</DV_PinkCloth.label>
+  <DV_PinkCloth.stuffProps.stuffAdjective>粉红色布</DV_PinkCloth.stuffProps.stuffAdjective>
+  <DV_PinkCloth.description>用有机纤维织成的布。</DV_PinkCloth.description>
+
+  <DV_MagentaCloth.label>洋红色布</DV_MagentaCloth.label>
+  <DV_MagentaCloth.stuffProps.stuffAdjective>洋红色布</DV_MagentaCloth.stuffProps.stuffAdjective>
+  <DV_MagentaCloth.description>用有机纤维织成的布。</DV_MagentaCloth.description>
+
+  <DV_PurpleCloth.label>紫色布</DV_PurpleCloth.label>
+  <DV_PurpleCloth.stuffProps.stuffAdjective>紫色布</DV_PurpleCloth.stuffProps.stuffAdjective>
+  <DV_PurpleCloth.description>用有机纤维织成的布。</DV_PurpleCloth.description>
+
+  <DV_VioletCloth.label>紫罗兰色布</DV_VioletCloth.label>
+  <DV_VioletCloth.stuffProps.stuffAdjective>紫罗兰色布</DV_VioletCloth.stuffProps.stuffAdjective>
+  <DV_VioletCloth.description>用有机纤维织成的布。</DV_VioletCloth.description>
+
+  <DV_BlueCloth.label>蓝色布</DV_BlueCloth.label>
+  <DV_BlueCloth.stuffProps.stuffAdjective>蓝色布</DV_BlueCloth.stuffProps.stuffAdjective>
+  <DV_BlueCloth.description>用有机纤维织成的布。</DV_BlueCloth.description>
+
+  <DV_LightBlueCloth.label>浅蓝色布</DV_LightBlueCloth.label>
+  <DV_LightBlueCloth.stuffProps.stuffAdjective>浅蓝色布</DV_LightBlueCloth.stuffProps.stuffAdjective>
+  <DV_LightBlueCloth.description>用有机纤维织成的布。</DV_LightBlueCloth.description>
+
+  <DV_CyanCloth.label>青色布</DV_CyanCloth.label>
+  <DV_CyanCloth.stuffProps.stuffAdjective>青色布</DV_CyanCloth.stuffProps.stuffAdjective>
+  <DV_CyanCloth.description>用有机纤维织成的布。</DV_CyanCloth.description>
+
+  <DV_TurquoiseCloth.label>绿松色布</DV_TurquoiseCloth.label>
+  <DV_TurquoiseCloth.stuffProps.stuffAdjective>绿松色布</DV_TurquoiseCloth.stuffProps.stuffAdjective>
+  <DV_TurquoiseCloth.description>用有机纤维织成的布。</DV_TurquoiseCloth.description>
+
+  <DV_LimeCloth.label>青柠色布</DV_LimeCloth.label>
+  <DV_LimeCloth.stuffProps.stuffAdjective>青柠色布</DV_LimeCloth.stuffProps.stuffAdjective>
+  <DV_LimeCloth.description>用有机纤维织成的布。</DV_LimeCloth.description>
+
+  <DV_GreenCloth.label>绿色布</DV_GreenCloth.label>
+  <DV_GreenCloth.stuffProps.stuffAdjective>绿色布</DV_GreenCloth.stuffProps.stuffAdjective>
+  <DV_GreenCloth.description>用有机纤维织成的布。</DV_GreenCloth.description>
+
+  <DV_YellowCloth.label>黄色布</DV_YellowCloth.label>
+  <DV_YellowCloth.stuffProps.stuffAdjective>黄色布</DV_YellowCloth.stuffProps.stuffAdjective>
+  <DV_YellowCloth.description>用有机纤维织成的布。</DV_YellowCloth.description>
+
+  <DV_OrangeCloth.label>橙色布</DV_OrangeCloth.label>
+  <DV_OrangeCloth.stuffProps.stuffAdjective>橙色布</DV_OrangeCloth.stuffProps.stuffAdjective>
+  <DV_OrangeCloth.description>用有机纤维织成的布。</DV_OrangeCloth.description>
+
+
+  <!-- Special -->
+
+  <DV_MaroonCloth.label>褐红色布</DV_MaroonCloth.label>
+  <DV_MaroonCloth.stuffProps.stuffAdjective>褐红色布</DV_MaroonCloth.stuffProps.stuffAdjective>
+  <DV_MaroonCloth.description>用有机纤维织成的布。</DV_MaroonCloth.description>
+
+  <DV_NavyBlueCloth.label>海军蓝色布</DV_NavyBlueCloth.label>
+  <DV_NavyBlueCloth.stuffProps.stuffAdjective>海军蓝色布</DV_NavyBlueCloth.stuffProps.stuffAdjective>
+  <DV_NavyBlueCloth.description>用有机纤维织成的布。</DV_NavyBlueCloth.description>
+
+
+  <!-- Hues -->
+
+  <DV_BlackCloth.label>黑色布</DV_BlackCloth.label>
+  <DV_BlackCloth.stuffProps.stuffAdjective>黑色布</DV_BlackCloth.stuffProps.stuffAdjective>
+  <DV_BlackCloth.description>用有机纤维织成的布。</DV_BlackCloth.description>
+
+  <DV_GreyCloth.label>灰色布</DV_GreyCloth.label>
+  <DV_GreyCloth.stuffProps.stuffAdjective>灰色布</DV_GreyCloth.stuffProps.stuffAdjective>
+  <DV_GreyCloth.description>用有机纤维织成的布。</DV_GreyCloth.description>
+
+  <DV_WhiteCloth.label>白色布</DV_WhiteCloth.label>
+  <DV_WhiteCloth.stuffProps.stuffAdjective>白色布</DV_WhiteCloth.stuffProps.stuffAdjective>
+  <DV_WhiteCloth.description>用有机纤维织成的布。</DV_WhiteCloth.description>
+
+
+</LanguageData>
