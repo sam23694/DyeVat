@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
 	<ThingDef Name="BuildingBase_GT" Abstract="True">
 		<category>Building</category>
@@ -19,10 +19,10 @@
 	</ThingDef>
 
 	<ThingDef ParentName="BenchBase_GT">
-		<DefName>DyeVat</DefName>
+		<defName>DyeVat</defName>
 		<label>dye vat</label>
-		<ThingClass>Building_WorkTable</ThingClass>
-		<Description>A workstation with a big vat used to mix dye and coloring into textiles.</Description>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A workstation with a big vat used to mix dye and coloring into textiles.</description>
 		<graphicData>
 			<texPath>Things/Building/Production/DyeVat</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>
@@ -35,14 +35,14 @@
 			</damageData>
 		</graphicData>
 		<costStuffCount>75</costStuffCount>
-		<CostList>
+		<costList>
 			<Steel>50</Steel>
-		</CostList>
+		</costList>
 		<stuffCategories>
 			<li>Metallic</li>
 			<li>Woody</li>
 		</stuffCategories>
-		<AltitudeLayer>Building</AltitudeLayer>
+		<altitudeLayer>Building</altitudeLayer>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>True</useHitPoints>
 		<statBases>
@@ -50,9 +50,9 @@
 			<MaxHitPoints>180</MaxHitPoints>
 			<Flammability>1.0</Flammability>
 		</statBases>
-		<Size>(2,2)</Size>
-		<DesignationCategory>Production</DesignationCategory>
-		<Passability>PassThroughOnly</Passability>
+		<size>(2,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
 		<pathCost>70</pathCost>
 		<hasInteractionCell>True</hasInteractionCell>
 		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
@@ -101,4 +101,4 @@
 		</researchPrerequisites>
 	</ThingDef>
 
-</ThingDefs>
+</Defs>

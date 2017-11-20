@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingCategoryDefs>
+<Defs>
 
       <ThingCategoryDef>
         <defName>DV_DyedCloth</defName>
@@ -8,4 +8,4 @@
         <iconPath>Ui/Icons/ThingCategories/Textiles</iconPath>
       </ThingCategoryDef>
 
-</ThingCategoryDefs>
+</Defs>

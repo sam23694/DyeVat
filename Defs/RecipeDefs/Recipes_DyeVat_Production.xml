@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
+<Defs>
 
 	<RecipeDef Name="DV_RecipeRoot" Abstract="True">
 		<workAmount>350</workAmount>
@@ -199,4 +199,4 @@
 		</products>
 	</RecipeDef>
 
-</RecipeDefs>
+</Defs>
