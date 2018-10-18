@@ -25,12 +25,18 @@
 		<description>Cloth woven from organic fibers.</description>
 		<graphicData>
 			<texPath>Things/Item/Resource/Cloth</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<statBases>
-			<MaxHitPoints>100</MaxHitPoints>
+			<StuffPower_Armor_Sharp>0.36</StuffPower_Armor_Sharp>
+			<StuffPower_Armor_Blunt>0</StuffPower_Armor_Blunt>
+			<StuffPower_Armor_Heat>0.18</StuffPower_Armor_Heat>
+			<StuffPower_Insulation_Cold>18</StuffPower_Insulation_Cold>
+			<StuffPower_Insulation_Heat>18</StuffPower_Insulation_Heat>
+			<MaxHitPoints>80</MaxHitPoints>
 			<MarketValue>1.5</MarketValue>
-			<Flammability>1.0</Flammability>
+			<Mass>0.026</Mass>
+			<Flammability>1.2</Flammability>
 			<DeteriorationRate>4</DeteriorationRate>
 		</statBases>
 		<thingCategories>
@@ -41,6 +47,9 @@
 	<!--			Colour wheel			-->
 	<ThingDef ParentName="DyeVatCloth" Name="DyedCloth" Abstract="True">
 		<stuffProps>
+			<statFactors>
+				<Flammability>1.2</Flammability>
+			</statFactors>
 			<categories>
 				<li>Fabric</li>
 			</categories>

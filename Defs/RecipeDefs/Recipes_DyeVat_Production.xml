@@ -3,7 +3,7 @@
 
 	<RecipeDef Name="DV_RecipeRoot" Abstract="True">
 		<workAmount>350</workAmount>
-		<workSpeedStat>BrewingSpeed</workSpeedStat>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
 		<effectWorking>Cook</effectWorking>
 		<soundWorking>Recipe_Brewing</soundWorking>
 	</RecipeDef>
